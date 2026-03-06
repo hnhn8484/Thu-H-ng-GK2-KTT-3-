@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Scoop - Ice Cream Store</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+<div class="logo">⛇☃︎Sweet Scoop</div>
+
+<nav>
+<nav class="nav-container">
+    <div class="nav-links">
+        <a href="#home">Home</a>
+<a href="#shop">Shop</a>
+<a href="#seasonal">Seasonal</a>
+<a href="#contact">Contact</a>
+    </div>
+
+    <div class="cart-icon" onclick="toggleCart()">
+        <div class="cart-bubble">
+            🛒
+            <span id="cartCount">0</span>
+        </div>
+    </div>
+</nav>
+
+</nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Scoops of Happiness𑁤</h1>
+        <p>Handcrafted ice cream made to melt your heart⋆౨ৎ˚⟡˖ ࣪</p>
+        <button class="btn-hero">Explore Flavors</button>
+    </div>
+</section>
+
+<section class="feature">
+<h2 class="section-title">Why Choose Us</h2>
+
+<div class="feature-grid">
+
+<div class="feature-box">
+<h3>🚚 Free Shipping</h3>
+<p>For orders over <span>$30</span></p>
+</div>
+
+<div class="feature-box">
+<h3>💳 Secure Payment</h3>
+<p>100% safe and secure payment</p>
+</div>
+
+<div class="feature-box">
+<h3>🎁 Special Gifts</h3>
+<p>Free gift wrapping available</p>
+</div>
+
+<div class="feature-box">
+<h3>📞 24/7 Support</h3>
+<p>We are always here to help</p>
+</div>
+
+</div>
+</section>
+
+<section id="shop">
+<h2 class="section-title">Signature Scoops⭐️</h2> 
+
+<div class="grid">
+
+<div class="card">
+<img src="assets/chocolate-espresso.jpg" alt="">
+<h3>Chocolate Espresso</h3>
+<p>$5.99</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/raspberry-cheesecake.jpg" alt="">
+<h3>Raspberry Cheesecake</h3>
+<p>$6.49</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/bubblegum.jpg" alt="">
+<h3>Bubblegum Bliss</h3>
+<p>$4.99</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/blue-vanilla-galaxy.jpg" alt="">
+<h3>Blue Vanilla Galaxy</h3>
+<p>$5.49</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/blueberry-swirl.jpg" alt="">
+<h3>Blueberry Swirl</h3>
+<p>$5.29</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/action-packed-sundae.jpg" alt="">
+<h3>Proud Viet🇻🇳</h3>
+<p>$6.99</p>
+<button>Add to Cart</button>
+</div>
+<div class="card">
+<img src="assets/lemon-lavender.jpg" alt="">
+<h3>Honey Lemon</h3>
+<p>$5.89</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/dreamy-ocean.jpg" alt="">
+<h3>Dreamy Ocean</h3>
+<p>$5.79</p>
+<button>Add to Cart</button>
+</div>
+
+</div>
+</section>
+
+<section class="small-banner">
+<h2>Summer Sale 20% OFF</h2>
+<p>Limited time offer for selected flavors</p>
+<button class="btn-light">Shop Now</button>
+</section>
+
+<section id="seasonal">
+<h2 class="section-title">Seasonal Specials🌸</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="assets/lemon.jpg" alt="">
+<h3>Fresh Lemon</h3>
+<p>$4.99</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/smores.jpg" alt="">
+<h3>S'mores Delight</h3>
+<p>$6.49</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/lavender-honey.jpg" alt="">
+<h3>Lemon Lavender</h3>
+<p>$5.59</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/matcha-white-chocolate.jpg" alt="">
+<h3>Matcha White Chocolate</h3>
+<p>$6.19</p>
+<button>Add to Cart</button>
+</div>
+
+</div>
+</section>
+
+<section class="newsletter">
+<h2>Subscribe to Our Newsletter</h2>
+
+<div class="newsletter-box">
+<input type="email" placeholder="Enter your email">
+<button>Subscribe</button>
+</div>
+
+</section>
+
+<footer id="contact">
+
+<div class="footer-container">
+
+<div>
+<h3>Sweet Scoop</h3>
+<p>Premium handmade ice cream store.</p>
+</div>
+
+<div>
+<h4>Contact</h4>
+<p>Email: sweetscoop@gmail.com</p>
+<p>Phone: 0123 456 789</p>
+</div>
+
+<div>
+<h4>Follow Us</h4>
+<p>Facebook | Instagram | TikTok</p>
+</div>
+
+</div>
+
+<p class="copyright">© 2026 Sweet Scoop. All rights reserved.</p>
+
+</footer>
+<div class="cart-panel" id="cartPanel">
+<h2>Your Cart</h2>
+<div id="cartItems"></div>
+<p class="total">Total: $<span id="cartTotal">0.00</span></p>
+<button onclick="toggleCart()" class="close-btn">Close</button>
+</div>
+<script>
+let cart = [];
+
+const buttons = document.querySelectorAll(".card button");
+const cartCount = document.getElementById("cartCount");
+const cartItems = document.getElementById("cartItems");
+const cartTotal = document.getElementById("cartTotal");
+const cartPanel = document.getElementById("cartPanel");
+
+buttons.forEach(button=>{
+button.addEventListener("click",()=>{
+const card = button.parentElement;
+const name = card.querySelector("h3").innerText;
+const price = parseFloat(card.querySelector("p").innerText.replace("$",""));
+
+addToCart(name,price);
+});
+});
+
+function addToCart(name,price){
+cart.push({name,price});
+updateCart();
+}
+
+function updateCart(){
+cartItems.innerHTML="";
+let total = 0;
+
+cart.forEach((item,index)=>{
+total += item.price;
+
+cartItems.innerHTML += `
+<div class="cart-item">
+${item.name} - $${item.price.toFixed(2)}
+<button onclick="removeItem(${index})">x</button>
+</div>
+`;
+});
+
+cartCount.innerText = cart.length;
+cartTotal.innerText = total.toFixed(2);
+}
+
+function removeItem(index){
+cart.splice(index,1);
+updateCart();
+}
+
+function toggleCart(){
+cartPanel.classList.toggle("show-cart");
+}
+</script>
+</body>
+</html>
